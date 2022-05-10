@@ -10,7 +10,12 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.6.2",
+    "@mui/material": "^5.6.3",
     "expo": "~44.0.0",
+    "expo-camera": "~12.1.2",
     "expo-status-bar": "~1.2.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
@@ -19,6 +24,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
+  },
+  "react-native": {
+    "./dist/cache.cjs.js": "./dist/cache.cjs.js",
+    "./dist/cache.esm.js": "./dist/cache.esm.js"
   },
   "private": true
 }
